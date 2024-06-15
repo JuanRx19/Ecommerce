@@ -1,0 +1,56 @@
+.contenedor-card{
+  box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contenedor-card:hover .button-card{
+  background-color: #eed098;
+}
+
+.contenedor-card:hover .footer-card{
+  color: #FFA500;
+}
+
+.title-card{
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.contenedor-mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-mid{
+  width: 70%;
+}
+
+.footer-card{
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+}
+
+.contenedor-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-card{
+  background-color: #FEE6B9;
+  font-weight: bold;
+  color: #FFA500;
+  font-size: 12px;
+  width: 150px;
+  height: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

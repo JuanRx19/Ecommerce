@@ -2,6 +2,8 @@ import "../assets/styles/Navbar.css";
 import logo from "../assets/img/logo.png";
 import promo from "../assets/img/promo.png";
 import cart from "../assets/img/shopping-cart.svg";
+import search from "../assets/img/search-solid.svg";
+
 function Navbar() {
   return (
     <div className="contenedor-principal">
@@ -14,6 +16,9 @@ function Navbar() {
               placeholder="Buscar productos, marcas y más..."
               className="search"
             />
+            <a href="#search" className="button-search">
+              <img src={search} alt="cart" className="cart" />
+            </a>
           </div>
             <ul className="lista-ul">
               <li className="lista-li">

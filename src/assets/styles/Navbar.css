@@ -47,14 +47,29 @@
   outline: none;
   font-family: sans-serif;
   box-sizing: border-box;
-  border-radius: 2px;
+  border-radius: 5px 0px 0px 5px;
   height: 40px;
-  width: 580px;
+  width: 540px;
   margin-top: 8px;
   font-size: 15px;
   border: 0;
   padding: 15px;
   box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-search{
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  width: 40px;
+  box-shadow: 1px 2.5px 3px 0px rgba(0, 0, 0, 0.3);
+  background-color: #f7c466;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.button-search:hover{
+  background-color: #FFA500;
+  transition: 1s;
 }
 
 .contenedor-downsearch{
