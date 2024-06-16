@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function Slide() {
   return (
-    <>
+    <div className='contenedor-slide'>
       <Swiper
         spaceBetween={30}
         loop={true}
@@ -32,7 +32,7 @@ function Slide() {
         <SwiperSlide><img src="https://http2.mlstatic.com/D_NQ_857712-MLA76883455989_062024-OO.webp" alt="img2" className='slide-img'/></SwiperSlide>
         <SwiperSlide><img src="https://http2.mlstatic.com/D_NQ_960788-MLA76575370773_052024-OO.webp" alt="img2" className='slide-img'/></SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
 
