@@ -1,0 +1,112 @@
+.contenedor-ofertas{
+  display: flex;
+  align-items: center;
+  height: 410px;
+  padding-left: 220px;
+  padding-right: 230px;
+  gap: 20px;
+}
+
+.contenedor-ofertasvarias{
+  background-color: #fff;
+  height: 100%;
+  width: 74.5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: visible;
+}
+
+.contenedor-ofertasvarias .swiper-pagination{
+  display: none;
+}
+
+.contenedor-ofertasvarias .swiper-slide {
+  width: 200px !important;
+}
+
+.contenedor-cards-data{
+  display: flex;
+  height: 85%;
+  gap: 20px;
+}
+.contenedor-data-ofert{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.contenedor-data-ofert:hover, .contenedor-oferta-img:hover + .contenedor-data-ofert{
+  transition: 500ms;
+  color: #FFA500;
+}
+
+.contenedor-dailyofert{
+  background-color: #fff;
+  height: 100%;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+}
+
+.contenedor-oferta-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: inherit;
+  width: 300px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.contenedor-dailyofert img{
+  border-radius: inherit;
+  width: 70%;
+}
+
+.product-title {
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 2px;
+  color: black !important;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray !important;
+}
+
+.discounted-price {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.discount {
+  color: green !important;
+}
+
+.installments {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+.free-shipping {
+  font-size: 14px;
+  color: green;
+}
+
+.full {
+  font-weight: bold;
+}

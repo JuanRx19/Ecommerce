@@ -1,0 +1,46 @@
+.contenedor-card-ofert{
+  height: 100%;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contenedor-card-ofert:hover{
+  transition: 500ms;
+  color: #FFA500;
+}
+
+.contenedor-card-ofert:hover .button-card-ofert{
+  transition: 500ms;
+  background-color: #eed098;
+}
+
+.contenedor-card-ofert:hover .footer-card-ofert{
+  transition: 500ms;
+  color: #FFA500;
+}
+
+.product-title{
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.title-card-ofert{
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.contenedor-mid-ofert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.footer-card-ofert{
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+}
